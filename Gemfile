@@ -50,7 +50,6 @@ group :development, :test do
   gem "dotenv-rails"
 
   # hosting pix
-  gem "cloudinary"
 end
 
 group :development do
@@ -58,6 +57,7 @@ group :development do
   gem "web-console"
 end
 
+gem "cloudinary"
 gem "rspec-rails", group: [ :test ]
 gem "rails-controller-testing", group: [ :test ]
 gem "bootstrap", "~> 5.2"
