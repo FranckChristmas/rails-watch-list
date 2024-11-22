@@ -49,6 +49,8 @@ group :development, :test do
   # dotenv gem for security.
   gem "dotenv-rails"
 
+  # hosting pix
+  gem "cloudinary"
 end
 
 group :development do
